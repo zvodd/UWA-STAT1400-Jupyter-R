@@ -53,7 +53,7 @@ RUN echo "APT-GET UPDATE" &&\
     echo "---------------------------------------------------------------------" &&\
     echo "Installing R and packages ..." &&\
     apt-get install -y \
-        r-base-core &&\
+        r-base-core \
         libczmq-dev \
         libcurl4-openssl-dev \
         libxml2 \
